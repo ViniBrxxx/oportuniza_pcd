@@ -48,5 +48,5 @@ Utilizaremos o Trello para monitorar e organizar as atividades do projeto.
 
 ## Como Acessar o Site
 
-O site está hospedado em https://oportuniza-glwfqrupc-vinicius-projects-294b0eb1.vercel.app/
+O site está hospedado em https://oportuniza-pcd.vercel.app/
 
