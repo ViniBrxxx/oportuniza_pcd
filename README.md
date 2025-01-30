@@ -1,42 +1,52 @@
-﻿# oportuniza_pcd
-**Squad 74 - Site de Vagas Exclusivas para PCDs**
+# Site de Vagas Exclusivas para PCDs
 
-**Integrantes Ativos:**
-- **Líder:** Vinícius
-- **Vice-Líder:** Roberta
-- **Membros:** Vinícius, Thaianne, Roberta e Josimário
+## Descrição
 
-**Desafio Escolhido:** Construir um site de vagas exclusivas para Pessoas com Deficiência (PCDs).
+Este projeto visa desenvolver um site responsivo e funcional dedicado à divulgação de vagas de emprego exclusivas para Pessoas com Deficiência (PCDs). O objetivo é proporcionar uma plataforma acessível e eficiente para que PCDs encontrem oportunidades de trabalho adequadas às suas habilidades e necessidades.
 
-**Público-Alvo:** Pessoas com todos os tipos de deficiência.
+## Integrantes do Squad
 
-**Respostas às Questões:**
+- **Líder**: Vinícius
+- **Vice-Líder**: Roberta
+- **Membros Ativos**: Vinícius, Thaianne, Roberta e Josimário
 
-1. **Problema a ser Resolvido:**
-   - A dificuldade de acesso e inclusão de PCDs no mercado de trabalho brasileiro. Apesar de representarem 18,6 milhões da população, apenas 26,6% estão empregados, evidenciando barreiras significativas para sua inserção profissional.
+## Desafio Escolhido
 
-2. **Público-Alvo e Aplicabilidade:**
-   - A solução é destinada a todas as pessoas com deficiência, sem restrição de idade ou grau de escolaridade. O site proporcionará acesso a oportunidades de emprego adaptadas às necessidades desse público.
+Construir um site de vagas exclusivas para PCDs.
 
-3. **Base de Dados e Justificativa:**
-   - A escolha do problema baseou-se em dados do IBGE, que indicam que apenas 26,6% das pessoas com deficiência estão empregadas no Brasil.
-   - Além disso, levantamento do eSocial aponta que, em 2023, foram contratadas 142.618 pessoas com deficiência, sendo 30.189 admissões pela intervenção direta da fiscalização e 112.429 inseridas de forma indireta, em razão das empresas cumprirem a determinação legal.
+## Público-Alvo
 
-4. **Impacto no Público-Alvo:**
-   - A falta de oportunidades de emprego adequadas contribui para a exclusão social e econômica das PCDs, limitando seu desenvolvimento pessoal e profissional.
+Pessoas com todos os tipos de deficiência, sem restrição de idade ou grau de escolaridade.
 
-5. **Cronograma das Atividades:**
-   - **Semana 1:** Levantamento de requisitos e definição de funcionalidades do site.
-   - **Semana 2:** Design da interface e experiência do usuário (UI/UX).
-   - **Semana 3:** Testes de usabilidade e ajustes finais.
-   - **Semana 4:** Implementação de feedbacks e lançamento beta.
+## Problema a Ser Resolvido
 
-6. **Distribuição das Atividades:**
-   - **Vinícius:** Coordenação geral e desenvolvimento do backend.
-   - **Roberta:** Design da interface e experiência do usuário.
-   - **Thaianne:** Desenvolvimento frontend e integração com APIs.
-   - **Josimário:** Testes de usabilidade e documentação.
+A falta de plataformas dedicadas que conectem PCDs a oportunidades de emprego adequadas às suas habilidades e necessidades específicas.
 
-7. **Ferramenta de Gerenciamento de Projeto:**
-   - Utilizaremos o **Trello**, uma ferramenta ágil de gerenciamento de projetos que permite a organização visual das tarefas e facilita a colaboração entre os membros da equipe.
+## Cronograma das Atividades
+
+1. **Semana 1**: Planejamento e definição de requisitos
+2. **Semana 2**: Desenvolvimento do layout e estrutura do site
+3. **Semana 3**: Implementação das funcionalidades principais
+4. **Semana 4**: Testes e ajustes finais
+
+## Distribuição das Atividades
+
+- **Vinícius**: Desenvolvimento do front-end
+- **Roberta**: Design e usabilidade
+- **Thaianne**: Desenvolvimento do back-end
+- **Josimário**: Testes e documentação
+
+## Ferramenta de Gerenciamento de Projeto
+
+Utilizaremos o Trello para monitorar e organizar as atividades do projeto.
+
+## Tecnologias Utilizadas
+
+- **Front-End**: HTML, CSS, Bootstrap
+- **Back-End**: PHP (sem integração com banco de dados)
+- **Versionamento**: Git e GitHub
+
+## Como Acessar o Site
+
+O site está hospedado em [https://www.exemplo.com](https://www.exemplo.com).
 
