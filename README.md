@@ -7,7 +7,7 @@ Este projeto visa desenvolver um site responsivo e funcional dedicado à divulga
 ## Integrantes do Squad
 
 - **Líder**: Vinícius
-- **Vice-Líder**: Roberta
+- **Vice-Líder**: Josimário
 - **Membros Ativos**: Vinícius, Thaianne, Roberta e Josimário
 
 ## Desafio Escolhido
@@ -32,19 +32,13 @@ A falta de plataformas dedicadas que conectem PCDs a oportunidades de emprego ad
 ## Distribuição das Atividades
 
 - **Vinícius**: Desenvolvimento do front-end
-- **Roberta**: Design e usabilidade
-- **Thaianne**: Desenvolvimento do back-end
-- **Josimário**: Testes e documentação
+- **Roberta**: Desenvolvimento de Seção de Vagas
+- **Thaianne**: Desenvolvimento de seção de Leis & acessibilidade
+- **Josimário**: Responsividade
 
 ## Ferramenta de Gerenciamento de Projeto
 
 Utilizaremos o Trello para monitorar e organizar as atividades do projeto.
-
-## Tecnologias Utilizadas
-
-- **Front-End**: HTML, CSS, Bootstrap
-- **Back-End**: PHP (sem integração com banco de dados)
-- **Versionamento**: Git e GitHub
 
 ## Como Acessar o Site
 
