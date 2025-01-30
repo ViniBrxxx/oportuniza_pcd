@@ -1,5 +1,6 @@
 body {
   background-color: #f8f9fa;
+  padding-top: 230px;
 }
 
 .form-container {
@@ -7,12 +8,13 @@ body {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 20px auto; /* Add margin for better spacing */
+  margin: 20px auto; 
 }
 
 .main-content {
-  min-height: calc(33vh - 10px); /* Adjust container height to account for navbar */
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-header {
