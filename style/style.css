@@ -14,10 +14,12 @@
 
 .navbar{
     padding-top: 0%;
+
 }
 
 #navbar{
     background: #f9f9f9;
+
 }
 #logo{
     font-size: 36px;
@@ -72,8 +74,9 @@
 
 /* Section Main */
 .main {
+    margin-top: 4.5rem;
     position: relative; 
-    height: 80vh; 
+    height: 463px; 
     overflow: hidden; 
     display: flex; 
     align-items: center; 
@@ -95,7 +98,7 @@
     z-index: 2; 
     color: white; 
     text-align: center; 
-    padding: 20px;
+    padding-top: 59px;
 }
 
 .main-txt h1 {
@@ -153,4 +156,22 @@
     border: none;
 }
 
+.central {
+    max-width: 700px;
+    margin: auto;
+}
+
 /* End Vagas */
+
+#my-senha {
+    background-color: #f9f9f9;
+    color: #00A651;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    margin-top: 15px;
+}
+
+.email {
+    display: none;
+}

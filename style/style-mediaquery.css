@@ -1,0 +1,71 @@
+/* Inicío Media query página Index */
+@media screen and (max-width: 400px) {
+
+    .main {
+        height: 510px;
+    }
+    .main-txt {
+        padding-top: 59px;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 720px) {
+
+    .main-txt {
+        padding-top: 59px;
+    }
+    .main {
+        height: 70vh;
+    }
+    .main-img img {
+        padding-bottom: 38px;
+    }
+}
+
+/* Fim media query página Index */
+
+
+
+
+/* Inicío Media query página Cadastro */
+
+@media screen and (min-width: 150px) {
+    .container-pq {
+        max-width: 650px;
+        padding: 0px;
+        margin-top: -30px;
+    }
+    .container-txt {
+        height: 20vh;
+        margin-top: -105px;
+    }
+    .form-container {
+        width: 100%;
+    }
+    .form-control {
+        border: 2px solid rgba(0, 0, 0, 0.619);
+        border-radius: 10px;
+        padding: 15px;
+    }
+    .margem {
+        margin-top: 86px;
+    }
+
+    .botoes {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-link {
+        text-align: center;
+        text-decoration: none;
+        font-weight: 500;
+        color: #00A651;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+}
