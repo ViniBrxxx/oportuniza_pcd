@@ -112,11 +112,23 @@ p {
   height: 0px;
 }
 
-.d-flex .cadastre-se{
-  background: transparent;
-  color: #00A651;
+.form-container .cadastre{
+    background-color: #f9f9f9;
+    color: #00A651;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
 }
 
-.d-flex p{
+#my-senha {
+  background-color: #f9f9f9;
+  color: #00A651;
+  padding: 0px;
+  margin: 0px;
+  float: left;
   margin-top: 15px;
+}
+
+.email {
+  display: none;
 }
