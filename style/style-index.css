@@ -53,6 +53,11 @@
     background: #006933; 
 }
 
+.main .link-curriculo{
+    text-decoration: none;
+    color: white;
+}
+
 /* End Section Main */
 
 /* Vagas */
