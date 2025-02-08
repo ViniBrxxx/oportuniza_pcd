@@ -16,18 +16,8 @@ header p {
     color: #116e30;
 }
 
-
-footer {
-    background-color: #ccf2d5; 
-    color: #116e30;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-}
-
-
 .descricao {
-    margin-top: 4.5rem;
+    margin-top: 1.5rem; /* Reduz a margem superior para aproximar os cursos */
     position: relative;
 }
 
@@ -82,4 +72,32 @@ button {
 
 button:hover {
     background-color: #006933;
+}
+
+/* Ajuste para a seção de header-cursos */
+.header-cursos {
+    background-image: url('../images/main-img.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Alinha o conteúdo horizontalmente */
+    height: 50vh; /* Ajuste a altura da imagem conforme necessário */
+    color: white;
+    padding: 0 20px; /* Remove padding superior e inferior */
+}
+
+.header-cursos h2 {
+    color: #00e26d;
+    font-size: 2.5rem; /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 0;
+}
+
+.header-cursos p {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 15px;
 }

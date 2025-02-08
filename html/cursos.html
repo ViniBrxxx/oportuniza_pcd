@@ -21,81 +21,136 @@
 </head>
 <body>
 
-    <!-- Nav Bar -->
+  <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-      <div class="container">
-        <a class="navbar-brand" href="../index.html" id="logo"><span>O</span>portuniza<span>PCD</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-          <span><i class="fa-solid fa-bars"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="../index.html"><i class="fa-solid fa-house"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#vagas">Vagas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="leis_e_deficiencia.html">Leis & Deficiência</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="empresa.html">Empresa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cursos">Cursos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#concursos">Concursos</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <a href="login.html">Login</a>
-            <a href="cadastro.html">Cadastre-se</a>
-          </form>
-        </div>
+    <div class="container">
+      <a class="navbar-brand" href="../index.html" id="logo"><span>O</span>portuniza<span>PCD</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="../index.html"><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#vagas">Vagas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="leis_e_deficiencia.html">Leis & Deficiências</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="empresa.html">Empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cursos.html">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contatos.html">Contatos</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <a href="login.html">Login</a>
+          <a href="cadastro.html">Cadastre-se</a>
+        </form>
       </div>
+    </div>
   </nav>
-    <!-- End Nav Bar -->
+  <!-- End Nav Bar -->
 
   <!-- Cursos Section -->
   <section class="descricao" id="cursos">
-    <div class="container">
-        <div style="margin-top: 125px;">
-            <div class="central">
+    <div class="header-cursos">
+        <h2>Cursos Disponíveis</h2>
+        <p>Encontre cursos acessíveis para pessoas com deficiência em qualquer cidade do Brasil.</p>
+    </div>
+
+    <div class="container" style="margin-top: 50px">
+        <div class="row" style="margin-top: 50px">
+            <div class="col-md-4 py-3 py-md-0">
                 <div class="card">
                     <div class="card-body">
-                        <h3>Cursos Disponíveis</h3>
-                        <div class="flex_container">
-                            <div class="curso">
-                                <h4>Curso de Tecnologia Acessível</h4>
-                                <p>📍 Localização: Online</p>
-                                <p>💼 Tipo: Curso</p>
-                                <p><strong>Duração:</strong> 40 horas</p>
-                                <p><strong>Instituição:</strong> Instituto Acessibilidade</p>
-                            </div>
-                            <div class="curso">
-                                <h4>Capacitação Profissional Inclusiva</h4>
-                                <p>📍 Localização: São Paulo</p>
-                                <p>💼 Tipo: Presencial</p>
-                                <p><strong>Duração:</strong> 60 horas</p>
-                                <p><strong>Instituição:</strong> Centro de Inclusão</p>
-                            </div>
-                            <div class="curso">
-                                <h4>Curso de Empreendedorismo para PCD</h4>
-                                <p>📍 Localização: Rio de Janeiro</p>
-                                <p>💼 Tipo: Online</p>
-                                <p><strong>Duração:</strong> 30 horas</p>
-                                <p><strong>Instituição:</strong> Empreender Inclusivo</p>
-                            </div>
-                        </div>
-                        <br>
-                        <button style="border: none; padding: 5px; color: #fff; background-color: #00A651; border-radius: 5px; width: 100%;">Inscreva-se</button>
+                        <h3>Curso de Tecnologia Acessível</h3>               
+                        <p>📍 Localização: On-line</p>
+                        <p>💼 Tipo: Curso</p>
+                        <p><strong>Duração:</strong> 40 horas</p>
+                        <p><strong>Instituição:</strong> Instituto Acessibilidade</p>
+                        <button type="submit" style="margin-top: 10px">Saber mais</button>              
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Capacitação Profissional Inclusiva</h3>               
+                        <p>📍 Localização: On-line</p>
+                        <p>💼 Tipo: Curso</p>
+                        <p><strong>Duração:</strong> 40 horas</p>
+                        <p><strong>Instituição:</strong> Instituto Acessibilidade</p>
+                        <button type="submit" style="margin-top: 10px">Saber mais</button>              
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Curso de Empreendedorismo</h3>               
+                        <p>📍 Localização: Rio de Janeiro - RJ</p>
+                        <p>💼 Tipo: Curso</p>
+                        <p><strong>Duração:</strong> 30 horas</p>
+                        <p><strong>Instituição:</strong> Empreender Inclusivo</p>
+                        <button type="submit" style="margin-top: 10px">Saber mais</button>              
+                    </div>
+                </div>
+            </div>
+        </div>         
     </div>
+
+    <div class="container" style="margin-top: 50px">
+      <div class="row" style="margin-top: 50px">
+          <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                  <div class="card-body">
+                      <h3>Curso de Tecnologia Acessível</h3>               
+                      <p>📍 Localização: On-line</p>
+                      <p>💼 Tipo: Curso</p>
+                      <p><strong>Duração:</strong> 40 horas</p>
+                      <p><strong>Instituição:</strong> Instituto Acessibilidade</p>
+                      <button type="submit" style="margin-top: 10px">Saber mais</button>              
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                  <div class="card-body">
+                      <h3>Capacitação Profissional Inclusiva</h3>               
+                      <p>📍 Localização: On-line</p>
+                      <p>💼 Tipo: Curso</p>
+                      <p><strong>Duração:</strong> 40 horas</p>
+                      <p><strong>Instituição:</strong> Instituto Acessibilidade</p>
+                      <button type="submit" style="margin-top: 10px">Saber mais</button>              
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                  <div class="card-body">
+                      <h3>Curso de Empreendedorismo</h3>               
+                      <p>📍 Localização: Rio de Janeiro - RJ</p>
+                      <p>💼 Tipo: Curso</p>
+                      <p><strong>Duração:</strong> 30 horas</p>
+                      <p><strong>Instituição:</strong> Empreender Inclusivo</p>
+                      <button type="submit" style="margin-top: 10px">Saber mais</button>              
+                  </div>
+              </div>
+          </div>
+      </div>         
+    </div>
+
   </section>
   <!-- End Cursos Section -->
 
