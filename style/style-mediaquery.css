@@ -69,3 +69,149 @@
         border-radius: 10px;
     }
 }
+
+/* Inicío Media query página Leis & Deficiências */
+
+@media (max-width: 768px) {
+    ul {
+        padding-left: 15px; /* Reduz o espaçamento padrão */
+    }
+}
+
+@media (max-width: 480px) {
+    ul {
+        padding-left: 10px; /* Ainda menor para telas menores */
+    }
+}
+
+/* Fim Media query página Leis & Deficiências */
+
+/* Início Media query página Empresas */
+@media (max-width: 1024px) {
+    .main-empresa {
+        height: 400px; 
+    }
+
+    .main-txt h1 {
+        font-size: 2rem;
+    }
+
+    .main-txt h2 {
+        font-size: 1rem;
+    }
+
+    .como-funciona-content {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .como-funciona-img img {
+        max-width: 90%;
+    }
+
+    .como-funciona-txt {
+        max-width: 90%;
+    }
+
+    .numeros-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .main-empresa {
+        height: 350px;
+        padding: 20px;
+    }
+
+    .main-txt h1 {
+        font-size: 1.8rem;
+    }
+
+    .main-txt h2 {
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .como-funciona-img img {
+        max-width: 80%;
+    }
+
+    .numeros-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .numero-item {
+        padding: 15px;
+    }
+
+    .numero-item i {
+        font-size: 2rem;
+    }
+
+    .numero-item p {
+        font-size: 1rem;
+    }
+
+    .numero-item span {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-empresa {
+        height: 300px;
+        padding: 15px;
+    }
+
+    .main-txt h1 {
+        font-size: 1.5rem;
+    }
+
+    .main-txt h2 {
+        font-size: 0.8rem;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .como-funciona-content {
+        padding: 0 10px;
+    }
+
+    .como-funciona-img img {
+        max-width: 100%;
+    }
+
+    .numeros-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .numero-item {
+        padding: 10px;
+    }
+
+    .numero-item i {
+        font-size: 1.8rem;
+    }
+
+    .numero-item p {
+        font-size: 0.9rem;
+    }
+
+    .numero-item span {
+        font-size: 0.8rem;
+    }
+}
+/* Fim Media query página Empresas */
+
+
+

@@ -59,7 +59,7 @@ header p {
 }
 
 
-button {
+.card-body button {
     border: none;
     padding: 10px;
     color: #fff;
@@ -70,29 +70,29 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+.card-body button:hover {
     background-color: #006933;
 }
 
 /* Ajuste para a seção de header-cursos */
 .header-cursos {
-    background-image: url('../images/main-img.png'); /* Substitua pelo caminho da sua imagem */
+    background-image: url('../images/main-img.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza o conteúdo verticalmente */
-    align-items: center; /* Alinha o conteúdo horizontalmente */
-    height: 50vh; /* Ajuste a altura da imagem conforme necessário */
+    justify-content: center;
+    align-items: center; 
+    height: 50vh; 
     color: white;
-    padding: 0 20px; /* Remove padding superior e inferior */
+    padding: 0 20px; 
 }
 
 .header-cursos h2 {
     color: #00e26d;
-    font-size: 2.5rem; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 2.5rem; 
     margin: 0;
 }
 
@@ -101,3 +101,7 @@ button:hover {
     color: white;
     margin-top: 15px;
 }
+
+
+
+
