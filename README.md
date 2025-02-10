@@ -8,7 +8,7 @@ Este projeto visa desenvolver um site responsivo e funcional dedicado à divulga
 
 - **Líder**: Vinícius
 - **Vice-Líder**: Josimário
-- **Membros Ativos**: Vinícius, Thaianne, Roberta e Josimário
+- **Membros Ativos**: Vinícius, Thaianne, Isabela, Roberta e Josimário
 
 ## Desafio Escolhido
 
@@ -31,14 +31,11 @@ A falta de plataformas dedicadas que conectem PCDs a oportunidades de emprego ad
 
 ## Distribuição das Atividades
 
-- **Vinícius**: Desenvolvimento do front-end
+- **Vinícius**: Desenvolvimento do front-end e banco de dados
 - **Roberta**: Desenvolvimento de Seção de Vagas
 - **Thaianne**: Desenvolvimento de seção de Leis & acessibilidade
 - **Josimário**: Responsividade
-
-## Ferramenta de Gerenciamento de Projeto
-
-Utilizaremos o Trello para monitorar e organizar as atividades do projeto.
+- **Isabela**: Página de cursos
 
 ## Como Acessar o Site
 
